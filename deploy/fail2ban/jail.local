@@ -1,0 +1,11 @@
+[node-login]
+enabled = true
+filter = node-login
+logpath = /var/log/nginx/access.log
+
+maxretry = 5
+findtime = 300
+bantime = 600
+
+port = http,https
+backend = auto
